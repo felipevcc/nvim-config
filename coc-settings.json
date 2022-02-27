@@ -1,0 +1,16 @@
+{
+	"suggest.noselect":false,
+
+	// Snippets
+	"snippets.priority": 1,
+	"snippets.userSnippetsDirectory": "~/.config/nvim/snippets",
+	"snippets.shortcut": "S",
+	"snippets.autoTrigger": true,
+	"snippets.triggerCharacters": [],
+	"snippets.loadFromExtensions": true,
+	"snippets.textmateSnippetsRoots": ["~/.config/nvim/snippets/textmate"],
+	"snippets.ultisnips.enable": true,
+	"snippets.ultisnips.usePythonx": true,
+	"snippets.ultisnips.directories": ["UltiSnips"],
+	"snippets.snipmate.enable": true
+}

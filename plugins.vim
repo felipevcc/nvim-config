@@ -1,0 +1,47 @@
+" plugins
+
+call plug#begin('~/.vim/bundle')
+
+" tree
+Plug 'scrooloose/nerdtree'
+Plug 'kaicataldo/material.vim'
+
+" themes 
+Plug 'morhetz/gruvbox'
+Plug 'shinchu/lightline-gruvbox.vim'
+
+" icons
+Plug 'ryanoasis/vim-devicons'
+
+" Plug 'valloric/youcompleteme'
+Plug 'mattn/emmet-vim'
+
+" syntax
+Plug 'sheerun/vim-polyglot'
+
+" autocomplete
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'sirver/ultisnips'
+
+" status bar
+Plug 'maximbaz/lightline-ale'
+Plug 'itchyny/lightline.vim'
+
+" typing
+Plug 'jiangmiao/auto-pairs'
+Plug 'alvan/vim-closetag'
+Plug 'tpope/vim-surround'
+
+" git
+Plug 'tpope/vim-fugitive'
+
+" langs
+" Plug 'vim-python/python-syntax'
+
+" IDE
+Plug 'editorconfig/editorconfig-vim'
+Plug 'mhinz/vim-signify'
+Plug 'yggdroot/indentline'
+Plug 'scrooloose/nerdcommenter'
+
+call plug#end()
