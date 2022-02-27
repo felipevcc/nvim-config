@@ -9,6 +9,8 @@ Plug 'kaicataldo/material.vim'
 " themes 
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
+Plug 'rakr/vim-one'
+Plug 'dracula/vim',{'name':'dracula'}
 
 " icons
 Plug 'ryanoasis/vim-devicons'
