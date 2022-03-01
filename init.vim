@@ -3,6 +3,7 @@
 runtime general.vim
 runtime plugins.vim
 runtime maps.vim
+runtime configs.vim
 
 " =========================
 
@@ -33,5 +34,3 @@ colorscheme dracula
 
 " =========================
 
-command! -nargs=0 Prettier :CocCommand prettier.formatFile
-nnoremap <C-D> :Prettier<CR>
