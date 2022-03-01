@@ -2,8 +2,6 @@
 
 <p align="center"><img src="https://img.shields.io/github/repo-size/felipevcc/nvim-config?style=flat-square&label=Repo"><p/>
 
-<br>
-
 ## Dashboard
 ![Dashboard Screenshot](./images/dashboard.png)
 
