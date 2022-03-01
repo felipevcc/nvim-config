@@ -5,7 +5,7 @@
 ![Dashboard Screenshot](./images/dashboard.png)
 
 ## Themes
-<img src="./images/dashboard1.png" width="395px"> <img src="./images/dashboard2.png" width="395px" align=right><div align="center"><img src="./images/dashboard3.png" width="395px"><div/>
+<img src="./images/dashboard1.png" width="405px"> <img src="./images/dashboard2.png" width="405px" align=right><div align="center"><img src="./images/dashboard3.png" width="405px"><div/>
 
 <!--
 ![Dashboard Screenshot](./images/dashboard1.png)
