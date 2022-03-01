@@ -8,7 +8,7 @@
 	"snippets.autoTrigger": true,
 	"snippets.triggerCharacters": [],
 	"snippets.loadFromExtensions": true,
-	"snippets.textmateSnippetsRoots": ["~/.config/nvim/snippets/textmate"],
+	"snippets.textmateSnippetsRoots": ["~/.config/nvim/snippets/vscode"],
 	"snippets.ultisnips.enable": true,
 	"snippets.ultisnips.usePythonx": true,
 	"snippets.ultisnips.directories": ["UltiSnips"],
