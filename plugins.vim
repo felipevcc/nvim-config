@@ -23,11 +23,13 @@ Plug 'sheerun/vim-polyglot'
 
 " autocomplete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Plug 'sirver/ultisnips'
+"Plug 'sirver/ultisnips'
+Plug 'ervandew/supertab'
 
 " status bar
-Plug 'maximbaz/lightline-ale'
-Plug 'itchyny/lightline.vim'
+Plug 'vim-airline/vim-airline'
+"Plug 'maximbaz/lightline-ale'
+
 
 " typing
 Plug 'jiangmiao/auto-pairs'

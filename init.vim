@@ -9,7 +9,7 @@ runtime maps.vim
 " THEMES
 
 if (has("termguicolors"))
-	set termguicolors
+    set termguicolors
 endif
 
 " Uncomment the one you want to use:
@@ -33,3 +33,5 @@ colorscheme dracula
 
 " =========================
 
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+nnoremap <C-D> :Prettier<CR>
