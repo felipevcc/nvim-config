@@ -48,4 +48,7 @@ Plug 'mhinz/vim-signify'
 Plug 'yggdroot/indentline'
 Plug 'scrooloose/nerdcommenter'
 
+" commenting gcc & gc
+Plug 'https://github.com/tpope/vim-commentary'
+
 call plug#end()
