@@ -34,6 +34,7 @@ inoremap <C-e> <C-o>$
 " buffers
 " map <Leader>ob :Buffers<cr>
 
+" right terminal
 set splitright
 function! OpenTerminal()
     execute "normal \<C-1>"
@@ -68,3 +69,41 @@ function! OpenTerminal()
     endif
 endfunction
 nnoremap <C-t> :call OpenTerminal()<CR>
+
+" down terminal
+set splitbelow
+function! OpenTerminal2()
+	execute "normal \<C-1>"
+	execute "normal \<C-1>"
+	execute "normal \<C-1>"
+	execute "normal \<C-1>"
+	
+	let bufNum = bufnr("%")
+    let bufType = getbufvar(bufNum, "&buftype", "not found")
+
+    if bufType == "terminal"
+	" close existing terminal
+	execute "q"
+    else
+	" open terminal
+	execute "sp term://zsh"
+	execute "resize 20"
+
+	" turn off numbers
+	execute "set nonu"
+	execute "set nornu"
+
+	" toggle insert on enter/exit
+	silent au BufLeave <buffer> stopinsert!
+	silent au BufWinEnter,WinEnter <buffer> startinsert!
+
+	" set maps inside terminal buffer
+	execute "tnoremap <buffer> <C-h> <C-\\><C-n><C-w><C-h>"
+	execute "tnoremap <buffer> <C-b> <C-\\><C-n>:q<CR>"
+	execute "tnoremap <buffer> <C-\\><C-\\> <C-\\><C-n>"
+
+
+	startinsert!
+    endif
+endfunction
+nnoremap <C-b> :call OpenTerminal2()<CR>
