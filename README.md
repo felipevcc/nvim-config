@@ -3,12 +3,12 @@
 <p align="center"><img src="https://img.shields.io/github/repo-size/felipevcc/nvim-config?style=flat-square&label=Repo"><p/>
 
 ## Dashboard
-![Dashboard Screenshot](./images/dashboard.png)
+<img src="https://i.imgur.com/H6U5T4B.png">
 
 <br>
 
 ## Themes
-<img src="./images/dashboard1.png" width="403px"> <img src="./images/dashboard2.png" width="403px" align=right><div align="center"><img src="./images/dashboard3.png" width="403px"><div/>
+<img src="https://i.imgur.com/qxNVbaM.png" width="403px"> <img src="https://i.imgur.com/fFAhAuf.png" width="403px" align=right><div align="center"><img src="https://i.imgur.com/bHMLo0G.png" width="403px"><div/>
 
 <!--
 ![Repo Size](https://img.shields.io/github/repo-size/felipevcc/nvim-config?style=flat-square&label=Repo)
