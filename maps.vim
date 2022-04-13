@@ -29,10 +29,17 @@ nnoremap <Leader>q :q<CR>
 nnoremap <Leader>kp :let @"=expand("%")<CR>
 
 " saltar al final de la linea
-inoremap <C-e> <C-o>$
+" inoremap <C-e> <C-o>$
 
 " buffers
 " map <Leader>ob :Buffers<cr>
+
+" commentens = gc (visual mode) or with command:
+" vnoremap <space>/ :Commentary<CR>
+
+" airline
+map <C-w> :bnext<CR>
+map <C-x> :bdelete<CR>
 
 " right terminal
 set splitright
