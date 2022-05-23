@@ -7,9 +7,13 @@
 
 <br>
 
-## Themes
-<img src="https://i.imgur.com/qxNVbaM.png" width="403px"> <img src="https://i.imgur.com/fFAhAuf.png" width="403px" align=right><div align="center"><img src="https://i.imgur.com/bHMLo0G.png" width="403px"><div/>
+<details>
+  
+<summary><b>Themes</b></summary>
+  
+<br>
+<img src="https://i.imgur.com/qxNVbaM.png" width="500px"> 
+<img src="https://i.imgur.com/fFAhAuf.png" width="500px">
+<img src="https://i.imgur.com/bHMLo0G.png" width="500px">
 
-<!--
-![Repo Size](https://img.shields.io/github/repo-size/felipevcc/nvim-config?style=flat-square&label=Repo)
--->
+</details>
